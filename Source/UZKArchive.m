@@ -1352,7 +1352,8 @@ compressionMethod:(UZKCompressionMethod)method
             }
             
             if (action) {
-                action(&actionError);
+                return NO;
+
             }
         }
         @finally {
